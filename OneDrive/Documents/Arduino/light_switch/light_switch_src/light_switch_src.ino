@@ -18,6 +18,10 @@ void loop() { // put your main code here, to run repeatedly:
     digitalWrite(3, LOW); //green LED off
     digitalWrite(4, LOW); //red LED on
     digitalWrite(5, HIGH); //red LED on
-  }
-  
-}
+    delay(250); //wait for a quarter second
+    //toggle the LEDs
+    digitalWrite(4, HIGH);
+    digitalWrite(5, LOW);
+    delay(250); //wait for a quarter second
+  } 
+} //go back to the beginning of the loop
