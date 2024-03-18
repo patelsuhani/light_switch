@@ -15,3 +15,18 @@ This Arduino sketch controls three LEDs based on the state of a switch. When the
 - Connect one end of the switch to pin 2 and the other end to GND.
 - Add appropriate resistors in series with the LEDs to limit current if necessary.
 
+## Usage
+1. Upload the sketch to your Arduino board.
+2. Press the momentary push-button switch to observe the LED behavior:
+   - When the switch is not pressed, the green LED is on and the red LEDs are off.
+   - When the switch is pressed, the green LED turns off and the red LEDs blink alternately.
+
+## Files
+- `led_switch_control.ino`: Arduino sketch file containing the code.
+- `README.md`: This README file provides information about the project.
+
+## Author
+This Arduino sketch was authored by Suhani Patel.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
