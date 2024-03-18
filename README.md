@@ -22,7 +22,7 @@ This Arduino sketch controls three LEDs based on the state of a switch. When the
    - When the switch is pressed, the green LED turns off and the red LEDs blink alternately.
 
 ## Files
-- `led_switch_control.ino`: Arduino sketch file containing the code.
+- `light_switch_src.ino`: Arduino sketch file containing the code.
 - `README.md`: This README file provides information about the project.
 
 ## Author
